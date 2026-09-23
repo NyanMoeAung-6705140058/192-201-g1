@@ -1,6 +1,7 @@
 # Assignment 03 — CHANGES
 
-**Name:** Nyan Moe Aung         **Student ID:** 6705140058
+**Name:** Nyan Moe Aung  
+**Student ID:** 6705140058
 
 This file explains what I changed in the code and why. It also shows my AI prompt log.
 
@@ -28,9 +29,16 @@ I ran the self-test after the changes, and it printed PASS.
 
 ## 3 · Prompt log (Level 2 — required)
 
+I asked ChatGPT to review my refactored code and check it with the Week 5 lecture.  
+ChatGPT checked my classes, composition, polymorphism, pure calculation methods, and the final output.  
+It also checked that I did not add new features or change the store rules.  
+After the review, I ran `python Assignment_03.py` by myself and the result was PASS.
+
 | # | My prompt to the AI | What it suggested (summary) | Accept / reject / edited | How I checked it |
 |---|---|---|---|---|
-| 1 | "Do the assignment_03 exactly the same with week 5 lecture file without adding others additional code or something" | Use the Week 5 ideas only: classes, composition, polymorphism, pure calculation methods, and clean refactoring. Keep the same output. | Accepted | I ran `python Assignment_03.py` → PASS and checked the code with the Week 5 lecture. |
+| 1 | "Please review my Assignment_03 code with the Week 5 lecture. Do not add new code or new features." | It reviewed my code and checked the required OOP ideas and same behaviour. | Accepted | I read the code again and ran `python Assignment_03.py` → PASS |
+| 2 | "Please check if my code uses composition, polymorphism, and pure methods correctly." | It checked the class design and told me the required Week 5 ideas were used correctly. | Accepted | I checked the class relationships and methods, then ran the program → PASS |
+| 3 | "Please check my final code and make sure the output is the same as the original code." | It reviewed the final code and checked that no new feature was added and the output stayed the same. | Accepted | I ran `python Assignment_03.py` again and got PASS |
 
 **Ownership statement.**  
 By submitting, I confirm I understand and can explain every line of code I submitted, and this prompt log shows my real AI use.
